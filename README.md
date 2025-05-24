@@ -1,3 +1,4 @@
+# リモートIO基板
 # Remote IO Board
 Remote IO Board with Shift Register 
 
