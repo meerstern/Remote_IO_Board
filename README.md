@@ -20,7 +20,8 @@ Remote IO Board with Shift Register
   * 電源電圧DC2V~5.5V  
   * メイン基板とサブ基板でそれぞれ8入力/8出力  
   * メイン基板とサブ基板の電源は同一の電源電圧を供給してください  
-  * 約1kHzの周期で双方向に同期します(内部クロック約8kHz、8bit+同期1bit)  
+  * 約1kHzの周期で双方向に同期します(内部クロック約8kHz、8bit+同期1bit)
+  * 入力に74HC165、出力に74HC595を使用しているため、シリアル転送中に変換途中の信号出力を防止しています    
   * 入力ポートは基板内部でプルダウンされています  
   * メイン基板とサブ基板の伝送距離は最大数m程度を想定しています  
 
@@ -45,7 +46,11 @@ Remote IO Board with Shift Register
 
 <img src="img/img1.jpeg" width="360">
 <img src="img/img2.jpeg" width="360">
-<img src="img/img4.gif" width="360">
 <img src="img/img5.jpg" width="360">
+<img src="img/img4.gif" width="360">
+※LEDが高速点滅しているように見えますが、実際はスイッチ状態に応じて連続点灯しています  
+
+
+
 
 MIT Lisense
